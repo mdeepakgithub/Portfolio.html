@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+        }
+        .project {
+            background: white;
+            margin: 1rem auto;
+            padding: 1rem;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated Data Analyst with over 2.4 years of experience in analyzing, interpreting,and leveraging data to drive business decisions and optimize operations. 
+With a strong foundation in statistical analysis, data visualization, and data management, 
+I specialize in transforming complex datasets into actionable insights that support business strategies and objectives.I am proficient in a variety of tools and technologies, including SQL, Excel, Python, and data visualization platforms such as Tableau and Power BI. My expertise includes data cleaning, trend analysis, reporting, and creating interactive dashboards to facilitate data-driven decision-making across diverse business functions.
+
+Throughout my career, I have worked in a range of industries, gaining valuable insights into the challenges and needs of various sectors. I take pride in my ability to approach problems analytically and communicate findings clearly to both technical and non-technical stakeholders.
+
+As a continuous learner, I am always seeking opportunities to expand my skill set and stay up-to-date with the latest data analytics trends and tools. My goal is to contribute to organizations by delivering high-quality, insightful analyses that drive informed decision-making and sustainable growth.  .</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+            <a href="https://github.com/your-username/project1" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+            <a href="https://github.com/your-username/project2" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Phone: 8008658255</p>
+        <p>Email: <a href="mailto:Maddala.Deepak@outlook.com">Maddala.Deepak@outlook.com</a></p>
+        <p>LinkedIn: <a href="linkedin.com/in/maddala-deepak-bb65231a5" target="_blank">your-profile</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Maddala Deepak. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
