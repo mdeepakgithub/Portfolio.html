@@ -97,5 +97,20 @@ As a continuous learner, I am always seeking opportunities to expand my skill se
     <footer>
         <p>&copy; 2025 Maddala Deepak. All Rights Reserved.</p>
     </footer>
+<script>
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function(event) {
+                event.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - document.querySelector('header').offsetHeight,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
