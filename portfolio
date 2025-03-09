@@ -77,7 +77,13 @@ As a continuous learner, I am always seeking opportunities to expand my skill se
         <h2>Projects</h2>
         <div class="project">
             <h3>Adventure Cycle Work Analyst</h3>
-            <p>Description of  project 1 .</p>
+            <p>The Adventure Works Cycle Project is a comprehensive data analysis and business intelligence project designed to analyze the sales, performance, and customer insights of Adventure Works, a global bicycle and outdoor gear manufacturing company. 
+The project is executed using Excel, MySQL, Tableau, and Power BI to handle, process, visualize, and derive actionable insights from the company's data .</p>
+<p>Purpose of the Project:<p>
+<p> The main objective of this project is to analyze the sales performance, customer demographics, product categories, and financial outcomes of Adventure Works. 
+By using various tools, we aim to uncover valuable business insights that can help stakeholders make data-driven decisions and enhance overall business performance.<p>
+
+
             <a href="https://github.com/your-username/project1" target="_blank">View on GitHub</a>
         </div>
         <div class="project">
