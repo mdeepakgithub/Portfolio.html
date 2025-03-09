@@ -83,12 +83,30 @@ The project is executed using Excel, MySQL, Tableau, and Power BI to handle, pro
 <p> The main objective of this project is to analyze the sales performance, customer demographics, product categories, and financial outcomes of Adventure Works. 
 By using various tools, we aim to uncover valuable business insights that can help stakeholders make data-driven decisions and enhance overall business performance.<p>
 <p>Tools and Their Usage
-<p><p><Bold> Excel:<Bold> Used for data cleaning, data formatting, and basic analysis.
+<p><p> Excel:- Used for data cleaning, data formatting, and basic analysis.
 
 Created Pivot Tables, Pivot Charts, and Excel Dashboards to summarize sales data and customer trends.
 
 Performed data calculations, filtering, and sorting to find sales performance by region, product, and category.
-Power bi :<p>
+<p><p>Power Bi :-  Built professional and interactive dashboards to present the key performance indicators (KPIs).
+
+Linked data from MySQL and Excel to create real-time reports.
+
+Visualized sales growth, revenue, product categories, and geographical sales performance.
+
+Enhanced decision-making by allowing users to interact with the dashboard and customize their insights.<p>
+<p> Tableau : -  Designed interactive dashboards to visualize data in a clear and compelling manner.
+
+Created dynamic visualizations like sales by region, product performance, and customer demographics.
+
+Enabled real-time data interaction for better understanding and data-driven decision-making.<p>
+<p> My_Sql : - Used as the primary database management system to store and query large datasets.
+
+Executed complex SQL queries to extract information about sales trends, customer behavior, product performance, and regional sales.
+
+Combined multiple tables using joins, subqueries, and aggregations to derive meaningful insights.<p>
+
+
 
 
 
