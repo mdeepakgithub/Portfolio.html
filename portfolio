@@ -118,15 +118,10 @@ Executed complex SQL queries to extract information about sales trends, customer
 
 Combined multiple tables using joins, subqueries, and aggregations to derive meaningful insights.<p>
 
-
-
-
-
-
-            <a href="https://github.com/your-username/project1" target="_blank">View on GitHub</a>
-        </div>
-        <div class="project">
-            <h3>E_Commerces</h3>
+ <a href="https://github.com/your-username/project1" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+        <h3>E_Commerces</h3>
             <p>Description of project 2.</p>
             <a href="https://github.com/your-username/project2" target="_blank">View on GitHub</a>
         </div>
