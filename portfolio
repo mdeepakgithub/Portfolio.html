@@ -63,7 +63,7 @@
     </header>
     
     <section id="about">
-        <h2>About Me</h2>
+        <h2><u>About Me</u></h2>
         <p><left>I am a dedicated Data Analyst with over 2.4 years of experience in analyzing, interpreting,and leveraging data to drive business decisions and optimize operations. 
 With a strong foundation in statistical analysis, data visualization, and data management, 
 I specialize in transforming complex datasets into actionable insights that support business strategies and objectives.I am proficient in a variety of tools and technologies, including SQL, Excel, Python, and data visualization platforms such as Tableau and Power BI. My expertise includes data cleaning, trend analysis, reporting, and creating interactive dashboards to facilitate data-driven decision-making across diverse business functions.
@@ -74,33 +74,33 @@ As a continuous learner, I am always seeking opportunities to expand my skill se
     </section>
     
     <section id="projects">
-        <h2>Projects</h2>
+        <h2><u>Projects</u></h2>
         <div class="project">
-            <h3>Adventure Cycle Work Analyst</h3>
+            <h3><u><b>Adventure Cycle Work Analyst</u></b></h3>
             <p>The Adventure Works Cycle Project is a comprehensive data analysis and business intelligence project designed to analyze the sales, performance, and customer insights of Adventure Works, a global bicycle and outdoor gear manufacturing company. 
 The project is executed using Excel, MySQL, Tableau, and Power BI to handle, process, visualize, and derive actionable insights from the company's data .</p>
 <p>Purpose of the Project<p>
 <p> The main objective of this project is to analyze the sales performance, customer demographics, product categories, and financial outcomes of Adventure Works. 
 By using various tools, we aim to uncover valuable business insights that can help stakeholders make data-driven decisions and enhance overall business performance.<p>
 <p>Tools and Their Usage
-<p><p> Excel:- Used for data cleaning, data formatting, and basic analysis.
+<p><p><strong>Excel:- </strong>Used for data cleaning, data formatting, and basic analysis.
 
 Created Pivot Tables, Pivot Charts, and Excel Dashboards to summarize sales data and customer trends.
 
 Performed data calculations, filtering, and sorting to find sales performance by region, product, and category.
-<p><p>Power Bi :-  Built professional and interactive dashboards to present the key performance indicators (KPIs).
+<p><p><strong>Power Bi :-</strong>  Built professional and interactive dashboards to present the key performance indicators (KPIs).
 
 Linked data from MySQL and Excel to create real-time reports.
 
 Visualized sales growth, revenue, product categories, and geographical sales performance.
 
 Enhanced decision-making by allowing users to interact with the dashboard and customize their insights.<p>
-<p> Tableau : -  Designed interactive dashboards to visualize data in a clear and compelling manner.
+<p><strong> Tableau : - </strong> Designed interactive dashboards to visualize data in a clear and compelling manner.
 
 Created dynamic visualizations like sales by region, product performance, and customer demographics.
 
 Enabled real-time data interaction for better understanding and data-driven decision-making.<p>
-<p> My_Sql : - Used as the primary database management system to store and query large datasets.
+<p><strong> My_Sql : - </strong>Used as the primary database management system to store and query large datasets.
 
 Executed complex SQL queries to extract information about sales trends, customer behavior, product performance, and regional sales.
 
@@ -122,9 +122,9 @@ Combined multiple tables using joins, subqueries, and aggregations to derive mea
     
     <section id="contact">
         <h2>Contact</h2>
-        <p>Phone: 8008658255</p>
-        <p>Email: <a href="mailto:Maddala.Deepak@outlook.com">Maddala.Deepak@outlook.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/maddala-deepak-bb65231a5/" target="_blank">your-profile</a></p>
+        <p><strong>Phone:</strong> 8008658255</p>
+        <p><strong>Email:</strong> <a href="mailto:Maddala.Deepak@outlook.com">Maddala.Deepak@outlook.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/maddala-deepak-bb65231a5/" target="_blank">your-profile</a></p>
     </section>
     
     <footer>
