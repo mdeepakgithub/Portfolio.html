@@ -47,6 +47,17 @@
             color: white;
             padding: 1rem 0;
             margin-top: 2rem;
+
+        }
+         h2, h3 {
+            font-weight: bold;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 1rem;
         }
     </style>
 </head>
@@ -64,6 +75,7 @@
     
     <section id="about">
         <h2><u>About Me</u></h2>
+        <img src="C:\Users\DLLE\Downloads\deepak pic.jpg" alt="My Profile Picture" class="profile-img">
         <p><left>I am a dedicated Data Analyst with over 2.4 years of experience in analyzing, interpreting,and leveraging data to drive business decisions and optimize operations. 
 With a strong foundation in statistical analysis, data visualization, and data management, 
 I specialize in transforming complex datasets into actionable insights that support business strategies and objectives.I am proficient in a variety of tools and technologies, including SQL, Excel, Python, and data visualization platforms such as Tableau and Power BI. My expertise includes data cleaning, trend analysis, reporting, and creating interactive dashboards to facilitate data-driven decision-making across diverse business functions.
@@ -122,7 +134,7 @@ Combined multiple tables using joins, subqueries, and aggregations to derive mea
     
     <section id="contact">
         <h2>Contact</h2>
-        <p><strong>Phone:</strong><a href="tel: 8008658255" >8008658255</a></p>
+        <p><strong>Phone:</strong><a href="tel: 8008658255">8008658255</a></p>
         <p><strong>Email:</strong> <a href="mailto:Maddala.Deepak@outlook.com">Maddala.Deepak@outlook.com</a></p>
         <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/maddala-deepak-bb65231a5/" target="_blank">your-profile</a></p>
     </section>
