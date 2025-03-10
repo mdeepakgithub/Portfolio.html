@@ -122,7 +122,7 @@ Combined multiple tables using joins, subqueries, and aggregations to derive mea
     
     <section id="contact">
         <h2>Contact</h2>
-        <p><strong>Phone:</strong> 8008658255</p>
+        <p><strong>Phone:</strong><a href="tel: 8008658255" >8008658255</a></p>
         <p><strong>Email:</strong> <a href="mailto:Maddala.Deepak@outlook.com">Maddala.Deepak@outlook.com</a></p>
         <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/maddala-deepak-bb65231a5/" target="_blank">your-profile</a></p>
     </section>
