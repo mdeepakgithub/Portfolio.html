@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a2e;
+            color: #fff;
+            text-align: center;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: linear-gradient(90deg, #ff8c00, #e52e71);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffeb3b;
+        }
+        section {
+            padding: 5rem 2rem;
+            margin-top: 80px;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-in-out;
+        }
+        .show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .project {
+            background: #0f3460;
+            margin: 1rem auto;
+            padding: 1.5rem;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .project:hover {
+            transform: scale(1.05);
+        }
+        .project a {
+            color: #ffeb3b;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        footer {
+            background: linear-gradient(90deg, #e52e71, #ff8c00);
+            color: white;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="fade-in">
+        <h2>About Me</h2> <p>I am a dedicated Data Analyst with over 2.4 years of experience in analyzing, interpreting,and leveraging data to drive business decisions and optimize operations. 
+With a strong foundation in statistical analysis, data visualization, and data management, 
+I specialize in transforming complex datasets into actionable insights that support business strategies and objectives.I am proficient in a variety of tools and technologies, including SQL, Excel, Python, and data visualization platforms such as Tableau and Power BI. My expertise includes data cleaning, trend analysis, reporting, and creating interactive dashboards to facilitate data-driven decision-making across diverse business functions.
+
+Throughout my career, I have worked in a range of industries, gaining valuable insights into the challenges and needs of various sectors. I take pride in my ability to approach problems analytically and communicate findings clearly to both technical and non-technical stakeholders.
+
+As a continuous learner, I am always seeking opportunities to expand my skill set and stay up-to-date with the latest data analytics trends and tools. My goal is to contribute to organizations by delivering high-quality, insightful analyses that drive informed decision-making and sustainable growth.  <left></p>
+    </section><section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Adventure Cycle Work Analyst</h3>
+            <p>The Adventure Works Cycle Project is a comprehensive data analysis and business intelligence project designed to analyze the sales, performance, and customer insights of Adventure Works, a global bicycle and outdoor gear manufacturing company. 
+The project is executed using Excel, MySQL, Tableau, and Power BI to handle, process, visualize, and derive actionable insights from the company's data .</p>
+<p>Purpose of the Project<p>
+<p> The main objective of this project is to analyze the sales performance, customer demographics, product categories, and financial outcomes of Adventure Works. 
+By using various tools, we aim to uncover valuable business insights that can help stakeholders make data-driven decisions and enhance overall business performance.<p>
+<p>Tools and Their Usage
+<p><p> Excel:- Used for data cleaning, data formatting, and basic analysis.
+
+Created Pivot Tables, Pivot Charts, and Excel Dashboards to summarize sales data and customer trends.
+
+Performed data calculations, filtering, and sorting to find sales performance by region, product, and category.
+<p><p>Power Bi :-  Built professional and interactive dashboards to present the key performance indicators (KPIs).
+
+Linked data from MySQL and Excel to create real-time reports.
+
+Visualized sales growth, revenue, product categories, and geographical sales performance.
+
+Enhanced decision-making by allowing users to interact with the dashboard and customize their insights.<p>
+<p> Tableau : -  Designed interactive dashboards to visualize data in a clear and compelling manner.
+
+Created dynamic visualizations like sales by region, product performance, and customer demographics.
+
+Enabled real-time data interaction for better understanding and data-driven decision-making.<p>
+<p> My_Sql : - Used as the primary database management system to store and query large datasets.
+
+Executed complex SQL queries to extract information about sales trends, customer behavior, product performance, and regional sales.
+
+Combined multiple tables using joins, subqueries, and aggregations to derive meaningful insights.<p></p>
+            <a href="https://github.com/your-username/project1" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>E_Commerce</h3>
+           <p>The E-commerce Dataset Project is a comprehensive data analysis and business intelligence project aimed at analyzing sales performance, 
+customer behavior, product demand, and financial metrics of an e-commerce platform. 
+This project utilizes Excel, MySQL, Tableau, and Power BI to process, analyze, and visualize data, providing valuable insights for business growth and strategic decision-making.
+</p>
+<p>Purpose of the Project<p>
+<p> The primary objective of this project is to analyze and understand sales trends, 
+customer satisfaction, product performance, and geographical sales using real e-commerce data. 
+The insights derived from the project help businesses optimize their product offerings, delivery performance, and customer experience.</p>
+
+<p>Tools and Their Usage </p>
+
+<p> Excel:- Performed data cleaning, formatting, and preliminary analysis.
+
+Used Pivot Tables and Pivot Charts to analyze sales performance, customer orders, and product categories.
+
+Identified trends related to delivery time, customer ratings, and revenue generation.</p>
+
+<p> Power Bi :-Built dynamic dashboards and reports to present key performance indicators (KPIs).
+
+Connected data from MySQL and Excel to create real-time reports.
+
+Visualized sales growth, product demand, and geographical performance to support data-driven decision-making.</p>
+
+<p> Tableau :- Created interactive dashboards to visualize sales trends, product performance, and regional sales.
+
+Developed visualizations to monitor customer satisfaction, delivery time, and revenue growth.
+
+Enabled users to explore data dynamically for deeper insights. </p>
+
+<p> My_SQL:- Used to store, manage, and query large datasets from the e-commerce platform.
+
+Executed complex SQL queries to extract insights related to order status, customer behavior, and product performance.
+
+Combined multiple tables using joins, aggregations, and filtering to generate meaningful data insights. </p>
+
+
+
+
+
+
+            <a href="https://github.com/your-username/project2" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+    
+    <section id="contact" class="fade-in">
+        <h2>Contact</h2>
+        <p>Phone: <a href="tel:8008658255">8008658255</a></p>
+        <p>Email: <a href="mailto:Maddala.Deepak@outlook.com">Maddala.Deepak@outlook.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/maddala-deepak-bb65231a5/" target="_blank">Maddala Deepak</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Maddala Deepak. All Rights Reserved.</p>
+    </footer>
+    
+    <script>
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function(event) {
+                event.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - document.querySelector('header').offsetHeight,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        const sections = document.querySelectorAll('section');
+        const fadeInOnScroll = () => {
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top < window.innerHeight * 0.8) {
+                    section.classList.add('show');
+                }
+            });
+        };
+        window.addEventListener('scroll', fadeInOnScroll);
+        fadeInOnScroll();
+    </script>
+</body>
+</html>
